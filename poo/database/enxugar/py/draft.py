@@ -31,8 +31,8 @@ def __str__ (self):
 def main():
     toalha = Towel("", "")
     while True:
-        line:str = input()
-        line:list[str] =line.split(" ")
+        line: str = input()
+        line:list[str] = line.split(" ")
 
         if args[0] == "end":
             break 
@@ -40,7 +40,7 @@ def main():
             color = args[1]
             size = args[2]
             toalha = Towel(color, size)
-        elif args[0] == "show"
+        elif args[0] == "show":
             print(toalha)
         elif args[0]== "dry":
             amount: int = (args[1])
@@ -49,11 +49,3 @@ def main():
             print:("fail:comando inválido")
 
 main()
-
-
-
-doguito = Towel("suja", "M")
-print(doguito.color)
-print(doguito.size)
-print(doguito.wetness)
-print(str(doguito)+ "está velha")

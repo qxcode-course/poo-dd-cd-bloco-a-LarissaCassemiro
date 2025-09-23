@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-23_19-49-37",
+            "content": "class Towel:\n    def __init__(self, color: str, size: str): \n        self.color = color \n        self.size = size \n        self.wetness: int =  0\n\ndef dry(self, amount: int) -> None:\n    self.wetness += amount\n    if self.wetness >= self.getMaxWetness():\n        print(\"toalha encharcada\")\n        self.wetness = self.getMaxWetness()\n\ndef isDry(self) -> bool:\n    return self.wetness == 0\n\ndef wringOut(self) -> None:\n    self.wetness = 0\n\n    \ndef getMaxWetness (self) -> int: \n    if self.size == \"P\":\n        return 10 \n    if self.size == \"M\":\n        return 20\n    if self.size == \"G\":\n        return 30\n\ndef __str__ (self):\n    return f\"color:{self.color}, size{self.size}, wetness{self.wetness}\"\n\ndef main():\n    toalha = Towel(\"\", \"\")\n    while True:\n        line: str = input()\n        line:list[str] = line.split(\" \")\n\n        if args[0] == \"end\":\n            break \n        elif args [0] == \"new\":\n            color = args[1]\n            size = args[2]\n            toalha = Towel(color, size)\n        elif args[0] == \"show\":\n            print(toalha)\n        elif args[0]== \"dry\":\n            amount: int = (args[1])\n            toalha.dry(amount)\n        else:\n            print:(\"fail:comando inv\u00e1lido\")\n\nmain()\n",
+            "lines": "51"
+        }
+    ]
+}

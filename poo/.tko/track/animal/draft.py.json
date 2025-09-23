@@ -1,0 +1,104 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-23_20-02-13",
+            "content": "@@ -2036,25 +2036,25 @@\n         self\n-.\n+,\n age += limit\n@@ -2117,25 +2117,25 @@\n            p\n-r\n+%C5%95\n int(%22warning\n",
+            "lines": "87"
+        },
+        {
+            "label": "2025-09-23_20-03-22",
+            "content": "@@ -2156,16 +2156,57 @@\n rreu%22)%0A%0A\n+    def ageBy (self, age: int) -%3E None:%0A%0A\n %0A    def\n",
+            "lines": "87"
+        },
+        {
+            "label": "2025-09-23_20-03-51",
+            "content": "@@ -2328,17 +2328,16 @@\n     line\n-:\n  str = i\n",
+            "lines": "85"
+        },
+        {
+            "label": "2025-09-23_20-04-15",
+            "content": "@@ -2427,20 +2427,16 @@\n  %22end%22:%0A\n-    \n     brea\n",
+            "lines": "85"
+        },
+        {
+            "label": "2025-09-23_20-04-27",
+            "content": "@@ -2402,20 +2402,16 @@\n t(%22 %22)%0A%0A\n-    \n     if a\n@@ -2435,20 +2435,16 @@\n         \n-    \n break%0A%0A \n@@ -2442,28 +2442,24 @@\n  break%0A%0A    \n-   \n- \n elif args%5B0%5D\n@@ -2478,20 +2478,16 @@\n         \n-    \n species \n@@ -2505,20 +2505,16 @@\n         \n- \n-   \n sound = \n@@ -2526,28 +2526,24 @@\n %5B1%5D%0A        \n-  \n-  \n animal = Ani\n@@ -2563,20 +2563,16 @@\n sound)%0A%0A\n-    \n     elif\n@@ -2595,28 +2595,24 @@\n w%22:%0A        \n-    \n print (anima\n@@ -2619,20 +2619,16 @@\n l)%0A%0A    \n- \n-   \n elif arg\n@@ -2657,20 +2657,16 @@\n         \n-    \n limit: i\n@@ -2680,20 +2680,16 @@\n rgs%5B1%5D)%0A\n-    \n         \n",
+            "lines": "85"
+        },
+        {
+            "label": "2025-09-23_20-05-02",
+            "content": "@@ -2757,15 +2757,8 @@\n mit)\n-%0Amain()\n %0A%0A  \n",
+            "lines": "85"
+        },
+        {
+            "label": "2025-09-23_20-07-23",
+            "content": "@@ -2197,16 +2197,25 @@\n eturn f%22\n+ species:\n %7Bself.sp\n@@ -2221,16 +2221,21 @@\n pecies%7D:\n+ age:\n %7Bself.ag\n",
+            "lines": "86"
+        },
+        {
+            "label": "2025-09-23_20-08-10",
+            "content": "@@ -2223,16 +2223,21 @@\n lf.age%7D:\n+sound\n %7Bself.so\n",
+            "lines": "86"
+        },
+        {
+            "label": "2025-09-23_20-08-20",
+            "content": "@@ -2524,10 +2524,9 @@\n gs %5B\n-2%5D\n+1\n %5D%0A  \n",
+            "lines": "86"
+        },
+        {
+            "label": "2025-09-23_20-09-19",
+            "content": "@@ -2522,16 +2522,17 @@\n args %5B2%5D\n+%5D\n %0A       \n",
+            "lines": "86"
+        },
+        {
+            "label": "2025-09-23_20-09-23",
+            "content": "@@ -2652,20 +2652,23 @@\n s%5B0%5D== %22\n-grow\n+crescer\n %22:%0A     \n",
+            "lines": "86"
+        },
+        {
+            "label": "2025-09-23_20-10-03",
+            "content": "@@ -2721,20 +2721,19 @@\n  animal.\n-grow\n+age\n (limit)%0A\n",
+            "lines": "86"
+        },
+        {
+            "label": "2025-09-23_20-10-40",
+            "content": "@@ -2019,20 +2019,21 @@\n w(self, \n-limi\n+amoun\n t):%0A    \n",
+            "lines": "86"
+        },
+        {
+            "label": "2025-09-23_20-11-25",
+            "content": "@@ -2687,19 +2687,16 @@\n : int = \n-int\n (args%5B1%5D\n",
+            "lines": "86"
+        },
+        {
+            "label": "2025-09-23_20-12-07",
+            "content": "@@ -2070,18 +2070,21 @@\n f self.a\n-ge\n+nimal\n  %3E= 4:%0A \n",
+            "lines": "86"
+        },
+        {
+            "label": "2025-09-23_20-12-35",
+            "content": "@@ -2122,18 +2122,16 @@\n   print(\n-f \n %22warning\n",
+            "lines": "86"
+        },
+        {
+            "label": "2025-09-23_20-12-57",
+            "content": "@@ -2123,16 +2123,17 @@\n  print(f\n+ \n %22warning\n",
+            "lines": "86"
+        },
+        {
+            "label": "2025-09-23_20-13-09",
+            "content": "@@ -2134,21 +2134,16 @@\n rning: %7B\n-self.\n species%7D\n",
+            "lines": "86"
+        },
+        {
+            "label": "2025-09-23_20-13-36",
+            "content": "@@ -2162,78 +2162,8 @@\n %22)%0A%0A\n-    def noise(self, age):%0A        self.age += limit%0A        if self.%0A%0A\n %0A   \n",
+            "lines": "86"
+        },
+        {
+            "label": "2025-09-23_20-15-26",
+            "content": "#Objetivo dessa atividade \u00e9 implementar um animal que passa pelas diversas fases de crescimento at\u00e9 a morte.\n\n#- Descri\u00e7\u00e3o\n# - O animal tem uma esp\u00e9cie `species`, um est\u00e1gio `age` de vida e um barulho `sound` que ele faz.\n# - O construtor do animal\n#    - Recebe a esp\u00e9cie e o barulho e inicia o est\u00e1gio com 0. \n#  - O toString do animal deve retornar a representa\u00e7\u00e3o do animal no formato\n#    - `{species}:{age}:{sound}`.\n#  - Os est\u00e1gios pelos quais o animal passa s\u00e3o:\n#    - 0: Filhote\n#    - 1: Crian\u00e7a\n#    - 2: Adulto\n#    - 3: Idoso\n#    - 4: Morto\n# - Ao envelhecer no m\u00e9todo `ageBy`, o animal avan\u00e7a est\u00e1gios na sua vida de acordo com o par\u00e2metro `increment`.\n#    - Ao morrer ou tentar envelhecer ap\u00f3s a morte do aninal, deve ser exibida a mensagem de aviso:\n#      - `warning: {species} morreu`.\n#      - Como essa \u00e9 uma mensagem de erro, voc\u00ea pode imprimir diretamente no m\u00e9todo `ageBy`.\n#  - Ao fazer barulho, o animal emite o som caracter\u00edstico da sua esp\u00e9cie, com as seguintes restri\u00e7\u00f5es:\n#    - Se for filhote, emite um \"---\".\n#    - Se estiver morto, emite um \"RIP\".\n#    - Como n\u00e3o s\u00e3o mensagens de erro, o barulho do animal deve ser retornado no m\u00e9todo `makeSound` e impresso na `main`.\n\n## Guide\n\n# - Implemente a sua classe se orientando pela descri\u00e7\u00e3o, pelo UML(se houver) e pelos testes cadastrados.\n# - Come\u00e7e analisando os testes e entendendo tudo que seu c\u00f3digo precisa fazer.\n# - Come\u00e7e analisando os testes e entendendo tudo que seu c\u00f3digo precisa fazer.\n# - Come\u00e7e analisando os testes e entendendo tudo que seu c\u00f3digo precisa fazer.\n# - Come\u00e7e analisando os testes e entendendo tudo que seu c\u00f3digo precisa fazer.\n# - Depois que tiver uma ideia do que vai implementar, se deixe guiar pelos testes, implementando apenas o que \u00e9 pedido para passar em cada teste.\n# - Passe para o pr\u00f3ximo teste at\u00e9 implementar tudo que \u00e9 pedido.\n\nclass Animal:\n    def __init__(self, species:str, sound: str):\n        self.species = species\n        self.sound = sound\n        self.age: str = 0\n\n\n    def grow(self, limit):\n        self.age += limit\n        if self.age >= 4:\n            self.age = 4\n            print(f\"warning: {self.species} morreu\")\n\n    def noise(self, age):\n        self.age += limit\n        if self.\n\n\n    def __str__(self):\n        return f\"{self.species}:{self.age}:{self.sound}\"\n\ndef main():\n    animal = Animal (\" \", \" \")\n    while True:\n        line: str = input()\n        print(\"$\" + line)\n        args = line.split(\" \")\n\n        if args[0] == \"end\":\n            break\n\n        elif args[0] == \"init\":\n            species = args [1]\n            sound = args [2]\n            animal = Animal(species, sound)\n\n        elif args[0] == \"show\":\n            print (animal)\n\n        elif args[0]== \"grow\":\n                limit: int = int(args[1])\n                animal.grow(limit)\nmain()\n\n        \n\n\n\n\n\n  \n\n\n\n\n\n\n",
+            "lines": "90"
+        }
+    ]
+}
