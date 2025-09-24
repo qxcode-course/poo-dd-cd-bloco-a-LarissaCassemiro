@@ -37,16 +37,17 @@ class Animal:
         self.sound = sound
         self.age: str = 0
 
+    def noise(self, age):
+        self.age += limit
+        if self.animal == 1:
+            self.animal = 1
+            print("---")
 
     def grow(self, limit):
         self.age += limit
         if self.age >= 4:
             self.age = 4
             print(f"warning: {self.species} morreu")
-
-    def noise(self, age):
-        self.age += limit
-        if self.
 
 
     def __str__(self):
@@ -73,6 +74,8 @@ def main():
         elif args[0]== "grow":
                 limit: int = int(args[1])
                 animal.grow(limit)
+    
+            
 main()
 
         
